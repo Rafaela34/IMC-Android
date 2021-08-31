@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/peso"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IMC"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Qual o seu peso?"
+        android:layout_marginLeft="40pt"
+        android:layout_marginRight="40pt"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:background="@drawable/rectangle_shape"
+        android:padding="15dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Qual a sua altura?"
+        android:layout_marginRight="40pt"
+        android:layout_marginLeft="40pt"
+        android:layout_marginTop="15dp"
+        android:inputType="numberDecimal"
+        android:background="@drawable/rectangle_shape"
+        android:padding="15dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:layout_marginLeft="40pt"
+        android:layout_marginRight="40pt"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="32dp"
+        android:text="21"
+        android:textSize="60sp"
+        android:background="@drawable/circle_shape"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peso Ideal"
+        android:layout_gravity="center"
+        android:textSize="30dp"/>
+</LinearLayout>
